@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1> Registration form</h1>
+<form 
+action="/process" method="get">
+    <label> first name:*</label>
+<input type="text"name="first name"><br>
+<br>
+<label> last name:*</label>
+<input type="text"name="last name"><br>
+<br>
+<label> Email:*</label>
+<input type="text"name="Email"><br>
+<br>
+<label> Password:*</label>
+<input type="password" name="password"><br>
+<br>
+<label> confirm password:*</label>
+<input type="password" name="password"><br>
+<br>
+<label> birthday:*</label>
+<input type="date"name="dob"><br>
+<br>
+<input type="radio"name="gender" value="male">
+<label>male</label>
+<input type="radio"name="gender" value="female">
+<label>female</label>
+<input type="radio"name="gender" value="non-binary">
+<label>non-binary</label>
+<input type="radio"name="gender" value="i prefer not to answer">
+<label>i prefer not to answer</label>
+ <p>A short discription abouy myself:</p>
+ <textarea name="comment" id="" cols="30" rows="10"></textarea>
+ <p>favorite language</p>
+ <select name="favorite language" >
+    <option >"javascript"</option>
+ </select>
+ <input type="checkbox" name="check">
+ <label >yes ,i would like to receive periodic email updates
+ </label>
+ <input type="submit"value="create account">
+ <br>
+ <p>*indicate a required field</p>
+
+</form>
